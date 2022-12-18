@@ -1,0 +1,15 @@
+Each row of this set relates to the conditions at a beach at a moment in time, and whether a shark appeared.
+
+murkiness.level: the extent of murkiness in the water surrounding the beach at that time [higher means more murky]
+avg.dolphins.seen.per.day: number of dolphins seen per day (averaged over the past week)
+previous.week.fishing: a measure of how intense fishing activity has been over the past week [higher means more intense]
+diversity.of.prey: an index for how diverse the availability of prey for sharks is near the beach on that week [higher means more diverse]
+seals.seen: number of seals seen per day (averaged over the past week)
+water.temp: temperature of water around beach on that day in degrees C
+people.previous.day: the number of people visiting on the previous day
+seagull.density: a normalised measure of how dense the seagull population is the previous day [higher means more dense]
+common.surfboard.colour: the most common surfboard colour that day
+overcast.weather: whether it was an overcast day or not
+time.of.day: time of day of the record - morning, afternoon, or night
+shark: whether a shark appeared at the beach (1 = shark appeared, 0 otherwise)
+id: unique identifier for a row
